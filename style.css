@@ -1,0 +1,280 @@
+body{
+margin: 0;
+padding: 0;
+}
+.di{
+    display: grid;
+     grid-template-columns: 10fr 100fr 10fr;
+    /*grid-template-rows: 1fr 1fr 1fr 1fr 1f;*/
+    grid-template-areas: 'header header header'
+                          'ar ar ar'
+                         'ar1 ar1 ar1'
+                         'ar2 ar2 ar2'
+                         'ar3 ar3 ar3'
+                         'ar4 ar4 ar4'
+                         'footer footer footer' ;
+   row-gap: 20px;
+}
+header{
+    background-color:honeydew;
+    grid-area: header;
+    height: 450px;
+    grid-template-columns: 1/4;
+    margin-bottom: 110px;
+}
+
+.ar{
+    background-color:white;
+    grid-area: ar;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    height: 300px;
+}
+
+.ar1{
+    /* background-color: blueviolet; */
+    grid-area: ar1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    height: 200px;
+}
+
+.ar2{
+    /* background-color: brown; */
+    grid-area: ar2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    height: 200px; 
+}
+
+.ar3{
+     background-color:white; 
+    grid-area: ar3;
+    height: 300px;
+    margin: -11% 300px; 
+    border-radius: 40px;
+    border: 3px solid whitesmoke;
+    /* width: 80%; */
+    /* margin: 100px; */
+    /* bottom: 100px; */
+}
+
+.diar3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diar3 h2,
+.diar3 button{
+    margin-top: 80px;
+}
+
+.diar3 button{
+    margin-top: 20px;
+    width: 300px;
+    height: 80px;
+    border-radius: 30px;
+    background-color:crimson;
+}
+
+.ar4{
+    background-color: plum;
+    grid-area: ar4;
+}
+
+footer{
+    /* background-color:teal; */
+    background-color:darkslategray;
+    grid-area: footer;
+    height: 80%;
+    grid-template-columns: 1/4;
+    margin-top: 200px;
+}
+/*--------------------------------header--------------------------------*/
+.dih button{
+    /* background-color: black; */
+    height: 40px;
+    width: 150px;
+    color: rgba(0, 0, 0, 0.918);
+    border-radius: 15px/15px;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-style:initial;
+}
+.ardh{
+    /* background-color: brown; */
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 340px;
+    margin-top:70px ;
+}
+
+.di1ardh img{
+    height: 300px;
+    width: 400px;
+    margin-left: 120px;
+}
+
+/* .diardh p{
+    margin-right: 90px;
+} */
+
+ .diardh{
+    width: 600px;
+    /* background-color: brown; */
+     margin-top: 1%;
+    height: 300px;
+}
+
+.diardh button{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px/20px;
+    background-color: deeppink;
+}
+
+/*----------------------------ar-------------------------------------------*/
+.ar{
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid whitesmoke;
+}
+
+.di1ar img{
+    height: 300px;
+    margin-left: 170px;
+}
+
+.diar{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+/*-------------------------ar1-------------------------*/
+
+.ar1{
+    border-radius: 30px;
+    height: 330px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid whitesmoke;
+
+}
+
+.diar1 img{
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.di1ar1{
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+
+/*----------------------------------ar2----------------------*/
+
+.di1ar2 img{
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.ar2{
+    height: 350px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid whitesmoke;
+}
+
+.diar2{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+/*--------------------------------ar3-------------------------------*/
+/*--------------------------------------------footer-----------------*/
+.une{
+   width: 300px;
+   margin-top: 240px;
+   margin-left: 100px;
+}
+
+.difoot{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    /* background-color: brown; */
+}
+
+.difoot img{
+    /* background-color: black; */
+    margin-top: 20px;
+}
+
+.di1foot{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    /* background-color: chartreuse; */
+}
+
+.di1foot img{
+    margin-top: 15px;
+}
+
+.di2foot{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    /* background-color: deeppink; */
+}
+
+.di2foot img{
+    margin-top: 20px;
+}
+
+.deux{
+    /* background-color: green; */
+    width: 90px;
+    margin-left: 100px;
+    margin-top: 250px;
+    margin-right: 300px;
+}
+
+.trois{
+    /* background-color: olivedrab; */
+    width: 100px;
+    margin-top: 250px;
+    margin-right: 100px;
+
+}
+
+
+.quatre{
+    /* background-color: fuchsia; */
+    width: 60px;
+    margin-top: 270px;
+    margin-right: 100px;
+
+}
+
+
+.sec{
+    display: grid;
+    grid-template-columns: 10fr 4fr 1fr 2fr ;
+}
+
+footer h6{
+    /* background-color: khaki; */
+    text-align: end;
+    margin-top: 30px;
+}
+
+footer .der{
+    text-align: center;
+}
+
